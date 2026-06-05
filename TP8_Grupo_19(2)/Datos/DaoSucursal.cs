@@ -15,7 +15,7 @@ namespace Datos
 
         public Sucursal getSucursal(Sucursal suc)
         {
-            DataTable tabla = ds.ObtenerTabla("Sucursal", "SELECT * FROM Sucursales WHERE Id_Sucursal=" + suc.getIDSucursal());
+            DataTable tabla = ds.ObtenerTabla("Sucursal", "SELECT * FROM Sucursal WHERE Id_Sucursal=" + suc.getIDSucursal());
 
             suc.setIDSucursal(Convert.ToInt32(tabla.Rows[0][0].ToString()));
             suc.setNombreSucursal(tabla.Rows[0][1].ToString());
@@ -24,18 +24,42 @@ namespace Datos
             return suc;
         }
 
+        public DataTable getSucursalPorID(int id)
+        {
+            string consulta = @"SELECT
+                        Id_Sucursal AS ID,
+                        NombreSucursal AS Nombre,
+                        DescripcionSucursal AS Descripcion,
+                        DescripcionProvincia AS Provincia,
+                        DireccionSucursal AS Direccion
+                        FROM Sucursal
+                        INNER JOIN Provincia
+                        ON Id_ProvinciaSucursal = Id_Provincia
+                        WHERE Id_Sucursal = " + id;
+
+            return ds.ObtenerTabla("Sucursal", consulta);
+        }
+
         public bool existeSucursal(Sucursal suc)
         {
-            string consulta = "SELECT * FROM Sucursales WHERE NombreSucursal='" + suc.getNombreSucursal() + "'";
+            string consulta = "SELECT * FROM Sucursal WHERE NombreSucursal='" + suc.getNombreSucursal() + "'";
 
             return ds.existe(consulta);
         }
 
         public DataTable getTablaSucursales()
         {
-            DataTable tabla = ds.ObtenerTabla( "Sucursal","SELECT * FROM Sucursales");
+            string consulta = @"SELECT
+                        Id_Sucursal AS ID,
+                        NombreSucursal AS Nombre,
+                        DescripcionSucursal AS Descripcion,
+                        DescripcionProvincia AS Provincia,
+                        DireccionSucursal AS Direccion
+                        FROM Sucursal
+                        INNER JOIN Provincia
+                        ON Id_ProvinciaSucursal = Id_Provincia";
 
-            return tabla;
+            return ds.ObtenerTabla("Sucursal", consulta);
         }
 
         public int eliminarSucursal(Sucursal suc)
@@ -50,7 +74,7 @@ namespace Datos
 
         public int agregarSucursal(Sucursal suc)
         {
-            suc.setIDSucursal(ds.ObtenerMaximo("SELECT MAX(Id_Sucursal) FROM Sucursales") + 1);
+            suc.setIDSucursal(ds.ObtenerMaximo("SELECT MAX(Id_Sucursal) FROM Sucursal") + 1);
 
             SqlCommand comando = new SqlCommand();
             ArmarParametrosSucursalAgregar(ref comando, suc);

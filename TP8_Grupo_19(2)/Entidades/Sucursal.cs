@@ -17,8 +17,8 @@ namespace Entidades
         private string _ImagenSucursal;
 
         public Sucursal()
-        {
-            
+        {   
+
         }
 
         public int getIDSucursal()
