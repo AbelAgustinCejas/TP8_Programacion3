@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{883AF4FF-BA89-48BA-A66B-DF9C596927AB}|Entidades\\Entidades.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883AF4FF-BA89-48BA-A66B-DF9C596927AB}|Entidades\\Entidades.csproj|solutionrelative:entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\datos\\daosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|solutionrelative:datos\\daosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|solutionrelative:datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|solutionrelative:negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
@@ -14,11 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DaoSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\DaoSucursal.cs",
+              "RelativeDocumentMoniker": "Datos\\DaoSucursal.cs",
+              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\DaoSucursal.cs",
+              "RelativeToolTip": "Datos\\DaoSucursal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:26:32.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NegocioSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Negocio\\NegocioSucursal.cs",
+              "RelativeDocumentMoniker": "Negocio\\NegocioSucursal.cs",
+              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Negocio\\NegocioSucursal.cs",
+              "RelativeToolTip": "Negocio\\NegocioSucursal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:24:41.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Entidades\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Entidades\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Entidades\\Sucursal.cs",
+              "RelativeToolTip": "Entidades\\Sucursal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:23:55.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "Datos\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\AccesoDatos.cs",
+              "RelativeToolTip": "Datos\\AccesoDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:23:27.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AgregarSucursales.aspx",
               "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\AgregarSucursales.aspx",
               "RelativeDocumentMoniker": "Vistas\\AgregarSucursales.aspx",
