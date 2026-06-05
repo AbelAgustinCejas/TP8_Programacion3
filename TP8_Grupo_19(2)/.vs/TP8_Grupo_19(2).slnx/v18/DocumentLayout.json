@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\",
+  "WorkspaceRootPath": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{883AF4FF-BA89-48BA-A66B-DF9C596927AB}|Entidades\\Entidades.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883AF4FF-BA89-48BA-A66B-DF9C596927AB}|Entidades\\Entidades.csproj|solutionrelative:entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\datos\\daosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\datos\\daosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|solutionrelative:datos\\daosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66933CC5-7F06-4695-AE00-41D883BD0643}|Datos\\Datos.csproj|solutionrelative:datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|solutionrelative:negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\familia\\documents\\github\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{883AF4FF-BA89-48BA-A66B-DF9C596927AB}|Entidades\\Entidades.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883AF4FF-BA89-48BA-A66B-DF9C596927AB}|Entidades\\Entidades.csproj|solutionrelative:entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|solutionrelative:negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +50,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\Web.Release.config",
+              "RelativeDocumentMoniker": "Vistas\\Web.Release.config",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\Web.Release.config",
+              "RelativeToolTip": "Vistas\\Web.Release.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-05T17:53:44.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\Web.Debug.config",
+              "RelativeDocumentMoniker": "Vistas\\Web.Debug.config",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\Web.Debug.config",
+              "RelativeToolTip": "Vistas\\Web.Debug.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-05T17:53:35.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\packages.config",
+              "RelativeDocumentMoniker": "Vistas\\packages.config",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\packages.config",
+              "RelativeToolTip": "Vistas\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-05T17:53:36.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EliminarSucursales.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\EliminarSucursales.aspx.cs",
+              "RelativeDocumentMoniker": "Vistas\\EliminarSucursales.aspx.cs",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\EliminarSucursales.aspx.cs",
+              "RelativeToolTip": "Vistas\\EliminarSucursales.aspx.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T17:29:12.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EliminarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\EliminarSucursales.aspx",
+              "RelativeDocumentMoniker": "Vistas\\EliminarSucursales.aspx",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\EliminarSucursales.aspx",
+              "RelativeToolTip": "Vistas\\EliminarSucursales.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-05T17:21:33.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DaoSucursal.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\DaoSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\DaoSucursal.cs",
               "RelativeDocumentMoniker": "Datos\\DaoSucursal.cs",
-              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\DaoSucursal.cs",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\DaoSucursal.cs",
               "RelativeToolTip": "Datos\\DaoSucursal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T14:26:32.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "NegocioSucursal.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Negocio\\NegocioSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Negocio\\NegocioSucursal.cs",
               "RelativeDocumentMoniker": "Negocio\\NegocioSucursal.cs",
-              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Negocio\\NegocioSucursal.cs",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Negocio\\NegocioSucursal.cs",
               "RelativeToolTip": "Negocio\\NegocioSucursal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,39 +149,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Sucursal.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Entidades\\Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Entidades\\Sucursal.cs",
               "RelativeDocumentMoniker": "Entidades\\Sucursal.cs",
-              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Entidades\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Entidades\\Sucursal.cs",
               "RelativeToolTip": "Entidades\\Sucursal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswDAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T14:23:55.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Datos\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Datos\\AccesoDatos.cs",
               "RelativeToolTip": "Datos\\AccesoDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB+AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T14:23:27.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AgregarSucursales.aspx",
-              "DocumentMoniker": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\AgregarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\AgregarSucursales.aspx",
               "RelativeDocumentMoniker": "Vistas\\AgregarSucursales.aspx",
-              "ToolTip": "C:\\Users\\Familia\\Documents\\GitHub\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\AgregarSucursales.aspx",
+              "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\AgregarSucursales.aspx",
               "RelativeToolTip": "Vistas\\AgregarSucursales.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-06-05T03:16:44.206Z",
               "EditorCaption": ""
