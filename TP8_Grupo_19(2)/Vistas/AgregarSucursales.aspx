@@ -44,7 +44,9 @@
                     <td>
                         <asp:TextBox ID="txtNombre" runat="server" Width="300px"></asp:TextBox>
                     </td>
-                    <td></td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RfvNombre" runat="server" ControlToValidate="txtNombre" ErrorMessage="Debe ingresar un nombre"></asp:RequiredFieldValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td style="width:5px;"></td>
@@ -53,7 +55,9 @@
                     <td style="width:300px;">
                         <asp:TextBox ID="txtDescripcion" runat="server" Width="300px"></asp:TextBox>
                     </td>
-                    <td></td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RfvDescripcion" runat="server" ControlToValidate="txtDescripcion" ErrorMessage="Debe ingresar una descripcion"></asp:RequiredFieldValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td style="width:5px;"></td>
@@ -64,7 +68,7 @@
                             <asp:ListItem Value="0">Seleccionar</asp:ListItem>
                         </asp:DropDownList>
                     </td>
-                    <td></td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td style="width:5px;"></td>
@@ -73,7 +77,9 @@
                     <td>
                         <asp:TextBox ID="txtDireccion" runat="server" Width="300px"></asp:TextBox>
                     </td>
-                    <td></td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RfvDireccion" runat="server" ErrorMessage="Debe ingresar una direccion"></asp:RequiredFieldValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td style="width:5px;"></td>

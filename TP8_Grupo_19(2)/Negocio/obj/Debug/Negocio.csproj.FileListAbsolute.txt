@@ -9,3 +9,14 @@ C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\
 C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.dll
 C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.pdb
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\bin\Debug\Negocio.dll
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\bin\Debug\Negocio.pdb
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\bin\Debug\Datos.dll
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\bin\Debug\Entidades.dll
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\bin\Debug\Datos.pdb
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\bin\Debug\Entidades.pdb
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.dll
+C:\Users\ezequ\Downloads\TP8_Programacion3\TP8_Grupo_19(2)\Negocio\obj\Debug\Negocio.pdb

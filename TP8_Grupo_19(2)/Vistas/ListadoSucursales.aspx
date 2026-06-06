@@ -54,7 +54,14 @@
                 <td class="auto-style5">
                     <asp:TextBox ID="txtBusqueda" runat="server" Width="252px"></asp:TextBox>
                 </td>
-                <td class="auto-style6">&nbsp;</td>
+                <td class="auto-style6">
+
+<asp:RegularExpressionValidator
+ID="revEdad"
+    runat="server"
+    ControlToValidate="txtBusqueda"
+    ValidationExpression="^\d+$"
+    ErrorMessage="Ingrese solo números"></asp:RegularExpressionValidator>                </td>
                 <td class="auto-style7">
                     <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" />
                 </td>
