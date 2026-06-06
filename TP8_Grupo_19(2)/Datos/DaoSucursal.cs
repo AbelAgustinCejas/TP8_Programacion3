@@ -17,9 +17,22 @@ namespace Datos
         {
             DataTable tabla = ds.ObtenerTabla("Sucursal", "SELECT * FROM Sucursal WHERE Id_Sucursal=" + suc.getIDSucursal());
 
-            suc.setIDSucursal(Convert.ToInt32(tabla.Rows[0][0].ToString()));
-            suc.setNombreSucursal(tabla.Rows[0][1].ToString());
-            suc.setDescripcionSucursal(tabla.Rows[0][2].ToString());
+            if (tabla.Rows.Count > 0)
+            {
+                suc.setIDSucursal(Convert.ToInt32(tabla.Rows[0][0]));
+
+                suc.setNombreSucursal(tabla.Rows[0][1].ToString());
+
+                suc.setDescripcionSucursal(tabla.Rows[0][2].ToString());
+
+                suc.setHorarioSucursal(Convert.ToInt32(tabla.Rows[0][3]));
+
+                suc.setProvinciaSucursal(Convert.ToInt32(tabla.Rows[0][4]));
+
+                suc.setDireccionSucursal(tabla.Rows[0][5].ToString());
+
+                suc.setImagenSucursal(tabla.Rows[0][6].ToString());
+            }
 
             return suc;
         }
@@ -62,51 +75,54 @@ namespace Datos
             return ds.ObtenerTabla("Sucursal", consulta);
         }
 
+        public DataTable getTablaProvincias()
+        {
+            string consulta = "SELECT Id_Provincia, DescripcionProvincia " + "FROM Provincia";
+
+            return ds.ObtenerTabla("Provincia", consulta);
+        }
+
         public int eliminarSucursal(Sucursal suc)
         {
-           
-            SqlCommand comando = new SqlCommand();
-            ArmarParametrosSucursalEliminar(ref comando, suc);
+            string consulta = "DELETE FROM Sucursal WHERE Id_Sucursal = " + suc.getIDSucursal();
 
-            return ds.EjecutarProcedimientoAlmacenado(
-                comando,"spEliminarSucursal");
+            return ds.EjecutarConsulta(consulta);
         }
 
-        public int agregarSucursal(Sucursal suc)
+        public int agregarSucursal(Sucursal sucursal)
         {
-            suc.setIDSucursal(ds.ObtenerMaximo("SELECT MAX(Id_Sucursal) FROM Sucursal") + 1);
+            string consulta = "INSERT INTO Sucursal " +
+                                "(NombreSucursal,DescripcionSucursal," +
+                                "Id_ProvinciaSucursal,DireccionSucursal) " +
+                                "VALUES ('" +
+                                sucursal.getNombreSucursal() + "','" +
+                                sucursal.getDescripcionSucursal() + "'," +
+                                sucursal.getProvinciaSucursal() + ",'" +
+                                sucursal.getDireccionSucursal() + "')";
 
-            SqlCommand comando = new SqlCommand();
-            ArmarParametrosSucursalAgregar(ref comando, suc);
-
-            return ds.EjecutarProcedimientoAlmacenado(
-                comando,
-                "spAgregarSucursal");
+            return ds.EjecutarConsulta(consulta);
         }
 
-        private void ArmarParametrosSucursalAgregar(
-            ref SqlCommand comando,
-            Sucursal suc)
-        {
-            SqlParameter parametro = new SqlParameter();
+        //private void ArmarParametrosSucursalAgregar(ref SqlCommand comando, Sucursal suc)
+        //{
+        //    SqlParameter parametro = new SqlParameter();
 
-            parametro = comando.Parameters.Add("@Id_Sucursal", SqlDbType.Int);
-            parametro.Value = suc.getIDSucursal();
+        //    parametro = comando.Parameters.Add("@Id_Sucursal", SqlDbType.Int);
+        //    parametro.Value = suc.getIDSucursal();
 
-            parametro = comando.Parameters.Add("@NombreSucursal", SqlDbType.VarChar, 50);
-            parametro.Value = suc.getNombreSucursal();
+        //    parametro = comando.Parameters.Add("@NombreSucursal", SqlDbType.VarChar, 50);
+        //    parametro.Value = suc.getNombreSucursal();
 
-            parametro = comando.Parameters.Add("@Descripcion", SqlDbType.VarChar, 100);
-            parametro.Value = suc.getDescripcionSucursal();
-        }
+        //    parametro = comando.Parameters.Add("@Descripcion", SqlDbType.VarChar, 100);
+        //    parametro.Value = suc.getDescripcionSucursal();
+        //}
 
-        private void ArmarParametrosSucursalEliminar(
-            ref SqlCommand comando, Sucursal suc)
-        {
-            SqlParameter parametro = new SqlParameter();
+        //private void ArmarParametrosSucursalEliminar(ref SqlCommand comando, Sucursal suc)
+        //{
+        //    SqlParameter parametro = new SqlParameter();
 
-            parametro = comando.Parameters.Add("@Id_Sucursal", SqlDbType.Int);
-            parametro.Value = suc.getIDSucursal();
-        }
+        //    parametro = comando.Parameters.Add("@Id_Sucursal", SqlDbType.Int);
+        //    parametro.Value = suc.getIDSucursal();
+        //}
     }
 }

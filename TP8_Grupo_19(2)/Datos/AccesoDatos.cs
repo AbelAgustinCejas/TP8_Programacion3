@@ -33,7 +33,6 @@ namespace Datos
             }
         }
 
-
         private SqlDataAdapter ObtenerAdaptador(String consulta, SqlConnection connection)
         {
             SqlDataAdapter adapter;
@@ -64,22 +63,22 @@ namespace Datos
             return dataSet.Tables[tabla];
         }
 
-        public int EjecutarProcedimientoAlmacenado(SqlCommand command, String storedProcedure)
-        {
-            int filasAfectadas;
+        //public int EjecutarProcedimientoAlmacenado(SqlCommand command, String storedProcedure)
+        //{
+        //    int filasAfectadas;
 
-            SqlConnection connection = ObtenerConexion();
+        //    SqlConnection connection = ObtenerConexion();
 
-            command.Connection = connection;
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = storedProcedure;
+        //    command.Connection = connection;
+        //    command.CommandType = CommandType.StoredProcedure;
+        //    command.CommandText = storedProcedure;
 
-            filasAfectadas = command.ExecuteNonQuery();
+        //    filasAfectadas = command.ExecuteNonQuery();
 
-            connection.Close();
+        //    connection.Close();
 
-            return filasAfectadas;
-        }
+        //    return filasAfectadas;
+        //}
 
         public Boolean existe(String consulta)
         {
@@ -97,20 +96,33 @@ namespace Datos
             return estado;
         }
 
-        public int ObtenerMaximo(String consulta)
+        //public int ObtenerMaximo(String consulta)
+        //{
+        //    int max = 0;
+
+        //    SqlConnection connection = ObtenerConexion();
+        //    SqlCommand command = new SqlCommand(consulta, connection);
+        //    SqlDataReader reader = command.ExecuteReader();
+
+        //    if (reader.Read())
+        //    {
+        //        max = Convert.ToInt32(reader[0].ToString());
+        //    }
+
+        //    return max;
+        //}
+
+        public int EjecutarConsulta(string consulta)
         {
-            int max = 0;
-
             SqlConnection connection = ObtenerConexion();
+
             SqlCommand command = new SqlCommand(consulta, connection);
-            SqlDataReader reader = command.ExecuteReader();
 
-            if (reader.Read())
-            {
-                max = Convert.ToInt32(reader[0].ToString());
-            }
+            int filas = command.ExecuteNonQuery();
 
-            return max;
+            connection.Close();
+
+            return filas;
         }
 
     }

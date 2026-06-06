@@ -15,15 +15,16 @@ namespace Vistas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None; /// me tiraba un error al cargar la página, lo solucioné con esta línea de código. Es un error común en ASP.NET Web Forms cuando se utiliza la validación sin configurar correctamente el modo de validación no intrusiva.
 
         }
 
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
-             
-            Sucursal suc = new Sucursal(); /// crea objeto sucursal 
-            DaoSucursal dao = new DaoSucursal(); /// Esa clase contiene los métodos que trabajan con la base de datos:
+            Sucursal suc = new Sucursal();
+
+            suc.setIDSucursal(Convert.ToInt32(txtIDsucursal.Text));
+
+            DaoSucursal dao = new DaoSucursal();
 
             int filas = dao.eliminarSucursal(suc);
 
@@ -37,7 +38,6 @@ namespace Vistas
             }
 
             txtIDsucursal.Text = "";
-
         }
     }
 }
