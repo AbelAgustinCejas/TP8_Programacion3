@@ -1,5 +1,6 @@
 ﻿using Datos;
 using Entidades;
+using Negocio;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -24,9 +25,9 @@ namespace Vistas
 
             suc.setIDSucursal(Convert.ToInt32(txtIDsucursal.Text));
 
-            DaoSucursal dao = new DaoSucursal();
+            NegocioSucursal negocio = new NegocioSucursal();
 
-            int filas = dao.eliminarSucursal(suc);
+            int filas = negocio.eliminarSucursal(suc);
 
             if (filas > 0)
             {

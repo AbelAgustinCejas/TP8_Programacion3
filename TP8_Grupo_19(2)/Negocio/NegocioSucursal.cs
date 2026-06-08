@@ -39,6 +39,12 @@ namespace Negocio
             DaoSucursal dao = new DaoSucursal();
             return dao.agregarSucursal(sucursal);
         }
+       
+       public int eliminarSucursal(Sucursal suc)
+            {
+            DaoSucursal dao = new DaoSucursal();
+            return dao.eliminarSucursal(suc);
+            }
+        }
 
-    }
 }
