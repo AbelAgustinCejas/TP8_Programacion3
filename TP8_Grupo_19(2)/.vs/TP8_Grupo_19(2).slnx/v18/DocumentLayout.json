@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\vistas\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\vistas\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{2E1AF86A-D5E2-4165-9D0F-7D7AFFB9576C}|Vistas\\Vistas.csproj|solutionrelative:vistas\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|c:\\users\\ezequ\\downloads\\tp8_programacion3\\tp8_grupo_19(2)\\negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB85AC7A-C185-4745-81BF-41DCF2086598}|Negocio\\Negocio.csproj|solutionrelative:negocio\\negociosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,8 +62,7 @@
               "RelativeToolTip": "Vistas\\EliminarSucursales.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-06T19:42:25.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T19:42:25.605Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Vistas\\ListadoSucursales.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T19:38:32.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T19:38:32.107Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Vistas\\ListadoSucursales.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-06T19:24:12.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T19:24:12.224Z"
             },
             {
               "$type": "Document",
@@ -99,7 +96,7 @@
               "RelativeDocumentMoniker": "Vistas\\EliminarSucursales.aspx.cs",
               "ToolTip": "C:\\Users\\ezequ\\Downloads\\TP8_Programacion3\\TP8_Grupo_19(2)\\Vistas\\EliminarSucursales.aspx.cs",
               "RelativeToolTip": "Vistas\\EliminarSucursales.aspx.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwCYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-06T15:16:48.779Z",
               "EditorCaption": ""
@@ -114,8 +111,7 @@
               "RelativeToolTip": "Datos\\AccesoDatos.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAcwB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T14:23:27.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T14:23:27.012Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Datos\\DaoSucursal.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAIwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T18:16:55.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T18:16:55.399Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "Negocio\\NegocioSucursal.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAwDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T14:24:41.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T14:24:41.378Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "Vistas\\AgregarSucursales.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-05T03:16:44.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T03:16:44.206Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "Vistas\\AgregarSucursales.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T14:38:27.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T14:38:27.016Z"
             }
           ]
         }

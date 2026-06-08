@@ -1,5 +1,4 @@
-﻿using Datos;
-using Entidades;
+﻿using Entidades;
 using Negocio;
 using System;
 using System.Collections.Generic;
