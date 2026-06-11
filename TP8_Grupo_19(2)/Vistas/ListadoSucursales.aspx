@@ -70,6 +70,8 @@ ID="revEdad"
                 </td>
             </tr>
         </table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:RequiredFieldValidator ID="rfvSucursal" runat="server" ControlToValidate="txtBusqueda" ErrorMessage="Ingrese sucursal"></asp:RequiredFieldValidator>
         <br />
         <asp:GridView ID="gvSucursales" runat="server" Height="291px" Width="965px">
         </asp:GridView>

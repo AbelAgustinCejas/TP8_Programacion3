@@ -4,3 +4,9 @@ C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\ob
 C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\obj\Debug\Entidades.dll
 C:\Users\Familia\Documents\GitHub\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\obj\Debug\Entidades.pdb
+C:\Users\agust\Desktop\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\bin\Debug\Entidades.dll
+C:\Users\agust\Desktop\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\bin\Debug\Entidades.pdb
+C:\Users\agust\Desktop\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\agust\Desktop\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\agust\Desktop\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\obj\Debug\Entidades.dll
+C:\Users\agust\Desktop\TP8_Programacion3\TP8_Grupo_19(2)\Entidades\obj\Debug\Entidades.pdb

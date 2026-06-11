@@ -78,7 +78,7 @@
                         <asp:TextBox ID="txtDireccion" runat="server" Width="300px"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RfvDireccion" runat="server" ErrorMessage="Debe ingresar una direccion"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RfvDireccion" runat="server" ErrorMessage="Debe ingresar una direccion" ControlToValidate="txtDireccion"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
